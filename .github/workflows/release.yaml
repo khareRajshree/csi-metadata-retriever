@@ -13,10 +13,15 @@ on:  # yamllint disable-line rule:truthy
         default: 'csi-metadata-retriever'
         required: true
 jobs:
+  package-update:
+    uses: khareRajshree/common-github-actions/.github/workflows/update-libraries.yml@main
+    name: Dell Libraries Update
+    secrets: inherit
   csm-release:
-    uses: dell/common-github-actions/.github/workflows/csm-release-driver-module.yaml@main
-    name: Release CSM Drivers and Modules
+    needs: [package-update]
+    uses: khareRajshree/common-github-actions/.github/workflows/csm-release-libs.yaml@main
+    name: Release Go Client Libraries
     with:
-      version: ${{ github.event.inputs.version }}
+      version: "${{ github.event.inputs.version || 'minor' }}"
       image: ${{ github.event.inputs.image }}
     secrets: inherit
