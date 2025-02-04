@@ -12,6 +12,8 @@ on:  # yamllint disable-line rule:truthy
         description: 'Image name. Example: csi-metadata-retriever'
         default: 'csi-metadata-retriever'
         required: true
+  repository_dispatch:
+    types: [release-go-libs]
 jobs:
   package-update:
     uses: khareRajshree/common-github-actions/.github/workflows/update-libraries.yml@main
