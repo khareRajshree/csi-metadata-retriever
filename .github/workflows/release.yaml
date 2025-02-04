@@ -25,5 +25,5 @@ jobs:
     name: Release Go Client Libraries
     with:
       version: "${{ github.event.inputs.version || 'minor' }}"
-      image: ${{ github.event.inputs.image }}
+      image: 'csi-metadata-retriever'
     secrets: inherit
