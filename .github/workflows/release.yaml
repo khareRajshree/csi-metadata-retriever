@@ -21,7 +21,7 @@ jobs:
     secrets: inherit
   csm-release:
     needs: [package-update]
-    uses: khareRajshree/common-github-actions/.github/workflows/csm-release-libs.yaml@main
+    uses: khareRajshree/common-github-actions/.github/workflows/csm-release-libs-images.yaml@main
     name: Release Go Client Libraries
     with:
       version: "${{ github.event.inputs.version || 'minor' }}"
