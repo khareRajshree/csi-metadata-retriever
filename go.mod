@@ -1,11 +1,11 @@
-module github.com/dell/csi-metadata-retriever
+module github.com/khareRajshree/csi-metadata-retriever
 
 go 1.24.0
 
 toolchain go1.24.5
 
 require (
-	github.com/dell/gocsi v1.14.1-0.20250718150756-9e598eb9e012
+	github.com/khareRajshree/gocsi v1.14.1-0.20250718150756-9e598eb9e012
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/net v0.43.0
