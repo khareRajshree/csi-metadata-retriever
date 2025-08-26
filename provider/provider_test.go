@@ -21,7 +21,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/dell/csi-metadata-retriever/retriever"
+	"github.com/khareRajshree/csi-metadata-retriever/retriever"
 	"github.com/stretchr/testify/assert"
 )
 

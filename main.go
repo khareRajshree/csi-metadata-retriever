@@ -30,11 +30,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/dell/csi-metadata-retriever/csiendpoint"
-	"github.com/dell/csi-metadata-retriever/provider"
-	"github.com/dell/csi-metadata-retriever/retriever"
-	"github.com/dell/gocsi"
-	csictx "github.com/dell/gocsi/context"
+	"github.com/khareRajshree/csi-metadata-retriever/csiendpoint"
+	"github.com/khareRajshree/csi-metadata-retriever/provider"
+	"github.com/khareRajshree/csi-metadata-retriever/retriever"
+	"github.com/khareRajshree/gocsi"
+	csictx "github.com/khareRajshree/gocsi/context"
 )
 
 const netUnix = "unix"

@@ -22,7 +22,7 @@ import (
 	"os"
 	"regexp"
 
-	gocsiutils "github.com/dell/gocsi/utils/csi"
+	gocsiutils "github.com/khareRajshree/gocsi/utils/csi"
 )
 
 var emptyRX = regexp.MustCompile(`^\s*$`)

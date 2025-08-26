@@ -20,9 +20,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/dell/csi-metadata-retriever/retriever"
-	"github.com/dell/csi-metadata-retriever/service"
-	"github.com/dell/gocsi"
+	"github.com/khareRajshree/csi-metadata-retriever/retriever"
+	"github.com/khareRajshree/csi-metadata-retriever/service"
+	"github.com/khareRajshree/gocsi"
 	log "github.com/sirupsen/logrus"
 )
 

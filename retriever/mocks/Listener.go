@@ -22,7 +22,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/dell/csi-metadata-retriever/service"
+	"github.com/khareRajshree/csi-metadata-retriever/service"
 	"github.com/stretchr/testify/mock"
 )
 

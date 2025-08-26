@@ -1,8 +1,8 @@
 # csi-metadata-retriever
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/dell/csi-vxflexos?style=flat-square)](https://goreportcard.com/report/github.com/dell/csi-metadata-retriever)
-[![License](https://img.shields.io/github/license/dell/csi-vxflexos?style=flat-square&color=blue&label=License)](https://github.com/dell/csi-metadata-retriever/blob/main/LICENSE)
-[![Last Release](https://img.shields.io/github/v/release/dell/csi-vxflexos?label=Latest&style=flat-square&logo=go)](https://github.com/dell/csi-metadata-retriever/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/khareRajshree/csi-vxflexos?style=flat-square)](https://goreportcard.com/report/github.com/khareRajshree/csi-metadata-retriever)
+[![License](https://img.shields.io/github/license/dell/csi-vxflexos?style=flat-square&color=blue&label=License)](https://github.com/khareRajshree/csi-metadata-retriever/blob/main/LICENSE)
+[![Last Release](https://img.shields.io/github/v/release/dell/csi-vxflexos?label=Latest&style=flat-square&logo=go)](https://github.com/khareRajshree/csi-metadata-retriever/releases)
 
 ## Description
 
@@ -10,18 +10,18 @@ Dell csi-metadata-retriever controller retrieves metadata from a Kubernetes clus
 
 ## Table of Contents
 
-* [Code of Conduct](https://github.com/dell/csm/blob/main/docs/CODE_OF_CONDUCT.md)
-* [Maintainer Guide](https://github.com/dell/csm/blob/main/docs/MAINTAINER_GUIDE.md)
-* [Committer Guide](https://github.com/dell/csm/blob/main/docs/COMMITTER_GUIDE.md)
-* [Contributing Guide](https://github.com/dell/csm/blob/main/docs/CONTRIBUTING.md)
-* [List of Adopters](https://github.com/dell/csm/blob/main/docs/ADOPTERS.md)
+* [Code of Conduct](https://github.com/khareRajshree/csm/blob/main/docs/CODE_OF_CONDUCT.md)
+* [Maintainer Guide](https://github.com/khareRajshree/csm/blob/main/docs/MAINTAINER_GUIDE.md)
+* [Committer Guide](https://github.com/khareRajshree/csm/blob/main/docs/COMMITTER_GUIDE.md)
+* [Contributing Guide](https://github.com/khareRajshree/csm/blob/main/docs/CONTRIBUTING.md)
+* [List of Adopters](https://github.com/khareRajshree/csm/blob/main/docs/ADOPTERS.md)
 * [Support](#support)
-* [Security](https://github.com/dell/csm/blob/main/docs/SECURITY.md)
+* [Security](https://github.com/khareRajshree/csm/blob/main/docs/SECURITY.md)
 * [Documentation](#documentation)
 
 ## Support
 
-For any issues, questions or feedback, please follow our [support process](https://github.com/dell/csm/blob/main/docs/SUPPORT.md)
+For any issues, questions or feedback, please follow our [support process](https://github.com/khareRajshree/csm/blob/main/docs/SUPPORT.md)
 
 ## Documentation
 

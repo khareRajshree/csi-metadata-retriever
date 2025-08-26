@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dell/csi-metadata-retriever/retriever/mocks"
-	"github.com/dell/gocsi"
-	csictx "github.com/dell/gocsi/context"
+	"github.com/khareRajshree/csi-metadata-retriever/retriever/mocks"
+	"github.com/khareRajshree/gocsi"
+	csictx "github.com/khareRajshree/gocsi/context"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/mock"
 )

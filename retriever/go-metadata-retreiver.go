@@ -31,9 +31,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"github.com/dell/csi-metadata-retriever/service"
-	"github.com/dell/gocsi"
-	csictx "github.com/dell/gocsi/context"
+	"github.com/khareRajshree/csi-metadata-retriever/service"
+	"github.com/khareRajshree/gocsi"
+	csictx "github.com/khareRajshree/gocsi/context"
 )
 
 // PluginProvider is able to serve a gRPC endpoint that provides
